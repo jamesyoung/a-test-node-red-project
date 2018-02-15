@@ -10,7 +10,7 @@
         "id": "bd5deef7.9ece3",
         "type": "inject",
         "z": "14f3f7b.047a008",
-        "name": "",
+        "name": "my-other-name",
         "topic": "",
         "payload": "",
         "payloadType": "date",
@@ -18,7 +18,7 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "x": 120,
+        "x": 140,
         "y": 60,
         "wires": [
             [
