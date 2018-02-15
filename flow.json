@@ -18,7 +18,7 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "x": 140,
+        "x": 120,
         "y": 60,
         "wires": [
             [
