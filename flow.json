@@ -7,6 +7,35 @@
         "info": ""
     },
     {
+        "id": "7651c676.a76c78",
+        "type": "subflow",
+        "name": "Subflow 1",
+        "info": "",
+        "in": [
+            {
+                "x": 50,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "2c5eea91.416b16"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 480,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "2c5eea91.416b16",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "bd5deef7.9ece3",
         "type": "inject",
         "z": "14f3f7b.047a008",
@@ -85,6 +114,31 @@
         "tls": "",
         "x": 481,
         "y": 234,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c5eea91.416b16",
+        "type": "function",
+        "z": "7651c676.a76c78",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 230,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfcfacf5.c8c4a",
+        "type": "subflow:7651c676.a76c78",
+        "z": "14f3f7b.047a008",
+        "name": "",
+        "x": 450,
+        "y": 140,
         "wires": [
             []
         ]
